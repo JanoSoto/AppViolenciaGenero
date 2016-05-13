@@ -1,0 +1,23 @@
+.panel-color{
+	background-color: #ffab00;
+	color: #FFF;
+}
+
+nav{
+	background-color: #1e88e5;
+}
+
+.navbar-fixed {
+	margin-left: 10%;
+}
+
+.navbar-fixed nav{
+	width: 80%;
+}
+
+.page-footer{
+	width: 80%;
+    margin-left: 10%;
+    background-color: #1e88e5 !important;
+}
+
