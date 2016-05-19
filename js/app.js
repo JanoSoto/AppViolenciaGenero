@@ -1,12 +1,20 @@
 angular.module("app", ["ngRoute"])
 	.config(function($routeProvider){
 		$routeProvider
+			.when("/", {
+				controller: "",
+				templateUrl: "home.html"
+			})
 			.when("/definiciones", {
 				controller: "defController",
 				templateUrl: "definiciones.html"
 			})
-			.when("/", {
+			.when("/marco_legal", {
 				controller: "",
-				templateUrl: "home.html"
+				templateUrl: "marco_legal.html"
+			})
+			.when("/vias_denuncia", {
+				controller: "",
+				templateUrl: "vias_denuncia.html"
 			})
 	});
