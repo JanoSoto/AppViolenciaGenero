@@ -1,10 +1,18 @@
+/*
+	Colores usach:
+		Naranjo: #ff7319;
+		Gris: #b1b3b4;
+		Azul: #0052cc;
+*/
+
 .panel-color{
-	background-color: #ffab00;
+	background-color: #b1b3b4;
 	color: #FFF;
 }
 
 nav{
-	background-color: #1e88e5;
+	/*background-color: #1e88e5;*/
+	background-color: #ff7319; 
 }
 
 .navbar-fixed {
@@ -18,7 +26,9 @@ nav{
 .page-footer{
 	width: 80%;
     margin-left: 10%;
-    background-color: #1e88e5 !important;
+    /*background-color: #1e88e5 !important;*/
+    background-color: #ff7319 !important;
+
 }
 
 .context{
