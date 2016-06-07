@@ -5,6 +5,21 @@
 		Gris: #b1b3b4;
 		Azul: #0052cc;
 */
+*{
+	color: #546e7a;
+}
+
+.list-circle{
+	list-style-type: disc !important;
+}
+
+.list-alpha{
+	list-style-type: lower-alpha !important;
+}
+
+.list-padding{
+	padding-left: 20px;
+}
 
 .panel-color{
 	background-color: #b1b3b4;
@@ -39,8 +54,26 @@ nav{
 
 .card-title{
 	line-height: 0 !important;
+	color: #fff;
 }
 
 .icon-home{
 	margin: 10px 0;
+}
+
+.icon-home .fa{
+	color: #fff;
+}
+
+.tabs .tab a{
+	color: #b1b3b4;
+}
+
+.tabs .tab a:hover{
+	font-weight: bold;
+	color: #b1b3b4;
+}
+
+.tabs .indicator{
+	background-color: #b1b3b4;
 }
