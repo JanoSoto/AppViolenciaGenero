@@ -3,18 +3,26 @@ angular.module("app", ["ngRoute", "ui.materialize"])
 		$routeProvider
 			.when("/", {
 				controller: "",
-				templateUrl: "home.html"
+				templateUrl: "html/home.html"
 			})
 			.when("/definiciones", {
 				controller: "defController",
-				templateUrl: "definiciones.html"
+				templateUrl: "html/definiciones.html"
 			})
 			.when("/marco_legal", {
 				controller: "",
-				templateUrl: "marco_legal.html"
+				templateUrl: "html/marco_legal.html"
 			})
 			.when("/vias_denuncia", {
 				controller: "viasDenuncia",
-				templateUrl: "vias_denuncia.html"
+				templateUrl: "html/vias_denuncia.html"
+			})
+			.when("/quienes_somos", {
+				controller: "",
+				templateUrl: "html/quienes_somos.html"
+			})
+			.when("/rsu", {
+				controller: "",
+				templateUrl: "html/rsu.html"
 			})
 	});

@@ -6,8 +6,28 @@
 		Azul: #0052cc;
 		Gris-letras: #546e7a;
 */
-*, a{
+*{
 	color: #546e7a;
+}
+
+a{
+	color: #ff7319;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+.brand-logo:hover{
+	font-weight: normal;
+}
+
+#nav-mobile li a:hover{
+	font-weight: normal;
+}
+
+.no-hover:hover{
+	font-weight: normal;
 }
 
 .list-circle{
@@ -144,8 +164,5 @@ i{
 .dato-contacto{
 	margin-top: 10px !important;
 	margin-bottom: 5px !important;
-	font-weight: bold;
-}
-a:hover{
 	font-weight: bold;
 }
