@@ -1,5 +1,24 @@
 angular.module("app")
-	.controller("defController", function ($scope) {
+	.controller("viasDenuncia", function ($scope, $location, $http){
+		$scope.denuncia_show = 'nacional';
+		$scope.download = function(){
+			//$location.url('/download/archivo_prueba.docx');
+			$http({method: 'GET', url: 'download/'}).
+			  success(function(data, status, headers, config) {
+			     var anchor = angular.element('<a/>');
+			     anchor.attr({
+			         href: 'data:attachment/csv;charset=utf-8,' + encodeURI(data),
+			         target: '_blank',
+			         download: 'archivo_prueba.docx'
+			     })[0].click();
+
+			  }).
+			  error(function(data, status, headers, config) {
+			    // handle error
+			  });
+		}
+	})
+	.controller("defController", function ($scope) {		
 		$scope.definiciones = [
 			{
 				concepto: "Abuso Emocional / Verbal",

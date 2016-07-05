@@ -21,7 +21,7 @@
         <ul class="collapsible popout" data-collapsible="accordion">
             <li ng-repeat="definicion in definiciones">
                 <!--div class="collapsible-header panel-color waves-effect waves-light"-->
-                <div class="collapsible-header panel-color">
+                <div class="collapsible-header panel-color waves-effect waves-light">
                     {{definicion.concepto}}
                 </div>
                 <div class="collapsible-body context">
@@ -31,14 +31,3 @@
         </ul>
     </div>                
 </div>
-<script>
-    if($('.collapsible')){
-        console.log('si hay un collapsible');
-    }
-    else{
-        console.log('no hay :(');
-    }
-    $('.collapsible').collapsible({
-        accordion : true // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-    });
-</script>   

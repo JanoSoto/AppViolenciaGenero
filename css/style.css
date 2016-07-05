@@ -4,8 +4,9 @@
 		Naranjo: #ff7319;
 		Gris: #b1b3b4;
 		Azul: #0052cc;
+		Gris-letras: #546e7a;
 */
-*{
+*, a{
 	color: #546e7a;
 }
 
@@ -31,11 +32,21 @@ nav{
 }
 
 .navbar-fixed {
-	margin-left: 10%;
+	margin-left: 0;
 }
 
 .navbar-fixed nav{
-	width: 80%;
+	width: 100%;
+}
+
+@media(min-width: 598px){
+	.navbar-fixed {
+		margin-left: 10%;
+	}
+
+	.navbar-fixed nav{
+		width: 80%;
+	}
 }
 
 .page-footer{
@@ -44,17 +55,22 @@ nav{
     background-color: #ff7319 !important;
 }
 
-.context{
-	color: #546e7a;
-}
-
 .card-home{
 	height: 400px;
+}
+
+#denuncia .card-title{
+	line-height: 0 !important;
+	color: #000;
 }
 
 .card-title{
 	line-height: 0 !important;
 	color: #fff;
+}
+
+.context{
+	color: #546e7a;
 }
 
 .icon-home{
@@ -76,4 +92,60 @@ nav{
 
 .tabs .indicator{
 	background-color: #b1b3b4;
+}
+
+.btn{
+	background-color: #ff7319;
+}
+
+.btn:hover{
+	background-color: #ff7319;
+}
+
+.btn:focus{
+	background-color: #ff7319;
+}
+
+.btn-gray{
+	background-color: #b1b3b4;
+}
+.btn-gray:hover{
+	background-color: #b1b3b4;
+}
+.btn-gray:focus{
+	background-color: #b1b3b4;
+}
+
+.denuncia-content{
+	padding: 10px !important;
+}
+
+.title-denuncia{
+	font-size: 18px !important;
+	font-weight: bold !important;
+}
+.contacto{
+	color: #fff;
+}
+i{
+	color: #fff;
+}
+
+.contacto p i{
+	font-size: 15px;
+}
+
+.contacto p a{
+	color: #fff;
+}
+.contacto p a:hover{
+	font-weight: bold;
+}
+.dato-contacto{
+	margin-top: 10px !important;
+	margin-bottom: 5px !important;
+	font-weight: bold;
+}
+a:hover{
+	font-weight: bold;
 }

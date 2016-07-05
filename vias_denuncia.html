@@ -1,10 +1,116 @@
 <div class="row">
-    <div class="col s12">
-        <div class="card panel-color center-align">
-            <div class="card-content white-text">
-                <span class="card-title">No implementado todavía</span>
-                <p>Esta funcionalidad aún no está lista para ser utilizada.</p>
+	<div class="valign-wrapper">
+        <div class="col s3">
+            <img class="responsive-img" src="images/logo-usach-naranjo.png"></img>
+        </div>
+        <div class="col s9 context">
+                <h4>La Universidad de Santiago de Chile avanza hacia la igualdad de género</h4>
+                <p>AGREGAR DESCRIPCIÓN DE LA SECCIÓN</p>
+        </div>
+    </div>
+    <div class="row">
+        <div>Elija el tipo de denuncia:</div>
+    	<button ng-click="denuncia_show = 'nacional'" class="waves-effect waves-light btn">Nacional</button>
+    	<button ng-click="denuncia_show = 'usach'" class="waves-effect waves-light btn">Universidad de Santiago de Chile</button>
+    </div>
+    <div class="col s12" ng-show="denuncia_show == 'nacional'">
+        <h3>Denuncia nacional</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+            <div class="col s6 m2 offset-m1">
+                <div class="card panel-color">
+                    <div class="card-content denuncia-content white-text">
+                        <span class="card-title title-denuncia">Juzgados de Familia</span>
+                        <div class="contacto">
+                            <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>Web</p>
+                            <p><a href="">Sin información</a></p>
+                            <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
+                            <p>Sin información</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m2">
+                <div class="card panel-color">
+                    <div class="card-content denuncia-content white-text">
+                        <span class="card-title title-denuncia">Carabineros</span>
+                        <div class="contacto">
+                            <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>Web</p>
+                            <p><a href="http://www.carabineros.cl/">Ir al sitio <i class="material-icons">open_in_new</i></a></p>
+                            <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
+                            <p>149</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m2">
+                <div class="card panel-color">
+                    <div class="card-content denuncia-content white-text">
+                        <span class="card-title title-denuncia">Policía de Investigaciones</span>
+                        <div class="contacto">
+                            <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>Web</p>
+                            <p><a href="http://www.pdichile.cl/">Ir al sitio <i class="material-icons">open_in_new</i></a></p>
+                            <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
+                            <p>134 - 2 27080000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m2">
+                <div class="card panel-color">
+                    <div class="card-content denuncia-content white-text">
+                        <span class="card-title title-denuncia">Ministerio Público</span>
+                        <div class="contacto">
+                            <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>Web</p>
+                            <p><a href="http://www.fiscaliadechile.cl/Fiscalia/index.do">Ir al sitio <i class="material-icons">open_in_new</i></a></p>
+                            <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
+                            <p>600 333 0000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 offset-s3 m2">
+                <div class="card panel-color">
+                    <div class="card-content denuncia-content white-text">
+                        <span class="card-title title-denuncia">Servicio Nacional de la Mujer</span>
+                        <div class="contacto">
+                            <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>Web</p>
+                            <p><a href="http://portal.sernam.cl/">Ir al sitio <i class="material-icons">open_in_new</i></a></p>
+                            <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
+                            <p>2 25496365</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="col s12" ng-show="denuncia_show == 'usach'">
+        <h3>Denuncia Universidad de Santiago de Chile</h3>
+
+        <div class="card white">
+            <div class="card-content">
+                <span class="card-title context">Plantilla de carta de denuncia</span>
+                <p>Puedes bajar una plantilla de carta de denuncia aquí
+                    <button ng-click="download()" class="waves-effect waves-light btn btn-gray"><i class="fa fa-download" aria-hidden="true"></i> Descargar</button>
+                </p>
+            </div>
+        </div>
+
+        <p>Denuncia obligatoria. Estarán obligados a denunciar:</p>
+        <ol type="a">
+            <li>Los miembros de Carabineros de Chile, de la Policía de Investigaciones de Chile y de Gendarmería, todos los delitos que presenciaren o llegaren a su noticia. Los miembros de las Fuerzas Armadas estarán también obligados a denunciar todos los delitos de que tomaren conocimiento en el ejercicio de sus funciones;</li>
+            <li>Los fiscales y los demás empleados públicos, los delitos de que tomaren conocimiento en el ejercicio de sus funciones y, especialmente, en su caso, los que notaren en la conducta ministerial de sus subalternos;</li>
+            <li>Los jefes de puertos, aeropuertos, estaciones de trenes o buses o de otros medios de locomoción o de carga, los capitanes de naves o de aeronaves comerciales que naveguen en el mar territorial o en el espacio territorial, respectivamente, y los conductores de los trenes, buses u otros medios de transporte o carga, los delitos que se cometieren durante el viaje, en el recinto de una estación, puerto o aeropuerto o a bordo del buque o aeronave;</li>
+            <li>Los jefes de establecimientos hospitalarios o de clínicas particulares y, en general, los profesionales en medicina, odontología, química, farmacia y de otras ramas relacionadas con la conservación o el restablecimiento de la salud, y los que ejercieren prestaciones auxiliares de ellas, que notaren en una persona o en un cadáver señales de envenenamiento o de otro delito, y</li>
+            <li>Los directores, inspectores y profesores de establecimientos educacionales de todo nivel, los delitos que afectaren a los alumnos o que hubieren tenido lugar en el establecimiento.</li>         
+        </ol>
+        <p>La denuncia realizada por alguno de los obligados en este artículo eximirá al resto.</p>
+        <p>Para leer más, haga click <a href="http://leyes-cl.com/codigo_procesal_penal/175.htm">aquí</a></p>
+
     </div>
 </div>

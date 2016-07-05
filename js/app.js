@@ -14,7 +14,7 @@ angular.module("app", ["ngRoute", "ui.materialize"])
 				templateUrl: "marco_legal.html"
 			})
 			.when("/vias_denuncia", {
-				controller: "",
+				controller: "viasDenuncia",
 				templateUrl: "vias_denuncia.html"
 			})
 	});
