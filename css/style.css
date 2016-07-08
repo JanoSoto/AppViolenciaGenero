@@ -18,6 +18,10 @@ a:hover{
 	font-weight: bold;
 }
 
+p {
+	text-align: justify;
+}
+
 .brand-logo{
 	font-size: 1.8rem !important;
 	white-space: normal !important;
@@ -90,7 +94,7 @@ nav{
 }
 
 .card-home{
-	height: 400px;
+	height: 350px;
 }
 
 #denuncia .card-title{
@@ -199,4 +203,7 @@ i{
 }
 .border-side-nav{
 	border-bottom: #b1b3b4 solid 1px;
+}
+.quote{
+	font-style: italic;
 }
