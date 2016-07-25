@@ -22,6 +22,10 @@ p {
 	text-align: justify;
 }
 
+.bold{
+	font-weight: bold;
+}
+
 .brand-logo{
 	font-size: 1.8rem !important;
 	white-space: normal !important;
@@ -206,4 +210,7 @@ i{
 }
 .quote{
 	font-style: italic;
+}
+.btn-denuncia{
+	margin-bottom: 20px;
 }
