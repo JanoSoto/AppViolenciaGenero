@@ -18,67 +18,60 @@ angular.module("app")
 			  });
 		}
 	})
-	.controller("defController", function ($scope) {		
+	.controller("defController", function ($scope) {	
 		$scope.definiciones = [
 			{
-				concepto: "Abuso Emocional / Verbal",
-				def: "Cualquier comportamiento encaminado a controlar y subyugar a otro ser humano mediante el recurso al miedo y la humillación y valiéndose de ataques físicos o verbales. (Susan Forward)"
-			},
-			{
-				concepto: "Abuso Sexual",
-				def: "Aprovechamiento excesivo e inadecuado de carácter sexual de una persona sobre otra. Maltrato físico y/o verbal sobre una persona adulta o menor con el fin de obtener una satisfacción sexual. Se diferencia de la explotación sexual comercial en que no se efectúa ninguna transacción económica."
-			},
-			{
-				concepto: "Acción Positiva o Discriminación Positiva",
-				def: "Implantación de medidas temporales que, con el fin de establecer la igualdad de oportunidades, permiten mentalizar a las personas y corregir aquellas situaciones que son el resultado  de usos o de sistemas sociales discriminatorios. (Raquel Osborne)"
-			},
-			{
-				concepto: "Acoso Sexual",
-				def: "Cualquier comportamiento -verbal, no verbal o físico- no deseado, de índole sexual, que tenga por objeto violar la dignidad de una persona, en particular si crea un entorno intimidatorio, hostil, degradante, humillante u ofensivo. <br>La definición común de “acoso sexual” quedará incluida en una directiva comunitaria sobre la igualdad de trato entre hombres y mujeres en el acceso al empleo. (Parlamento Europeo)"
-			},
-			{
-				concepto: "Estereotipos Sexuales",
-				def: "Construcción cultural que supone una visión determinada sobre cada uno de los sexos, asignándoles de forma desigual y discriminadora distintos papeles, actitudes y características. Los estereotipos crean arquetipos, a través de imágenes que cumplen el papel de proponer modelos rígidos, en los que hay que encajar para ser socialmente aceptados. En definitiva, los estereotipos sexuales fijan un modelo de ser hombre y un modelo de ser mujer validados socialmente y que, a partir de esa visión tópica construida, establecen un sistema desigual de relaciones entre ambos sexos y de cada uno de ellos con el mundo.  (VVAA-CPR de Gijón, Materiales para la observación y el análisis del sexismo en el ámbito escolar, 2002)"
-			},
-			{
-				concepto: "Lenguaje Sexista",
-				def: "Es aquél que nombra la realidad subsumiendo lo femenino en lo masculino e integrando a las mujeres en el mismo, imposibilitándoles de esa manera que  nombren el mundo desde su género."
-			},
-			{
-				concepto: "Roles Establecidos en Función del Sexo",
-				def: "Pautas de acción y comportamiento asignadas a mujeres y a hombres,  respectivamente, e inculcadas y perpetuadas según los criterios vigentes en la sociedad patriarcal. (Ángeles Álvarez, Guía para mujeres maltratadas)"
-			},
-			{
-				concepto: "Violencia de Género",
-				def: "Término acuñado en la “Conferencia Mundial sobre la mujer” en Pekín (1995) y que se define como “todo acto de violencia sexista que tiene como resultado posible o real un daño de naturaleza física, sexual, psicológica, incluyendo las amenazas, la coerción o la privación arbitraria de libertad para las mujeres, ya se produzca en la vida pública o en la privada”. Está considerado como el crimen encubierto más frecuente del mundo. (Asamblea General de Naciones Unidas)"
+				concepto: "Género",
+				def: "El género es una construcción social, histórica, política y cultural que instaura un orden social basado en un sistema de poder que condiciona a las personas a vivir de una manera específica de acuerdo a su sexo. Concepto acordado por el Punto Focal de Género y la Red en temáticas de Género Universidad de Santiago de Chile. 2015."
+
 			},
 			{
 				concepto: "Violencia contra las mujeres",
-				def: "Las mujeres, sólo por el hecho de ser mujeres, viven diversas formas de violencia de parte de sus parejas o de su entorno que van desde el control hasta la agresión física. Esto se justifica porque en muchas culturas, incluida la chilena, todavía se cree que los hombres tienen derecho a controlar la libertad y la vida de las mujeres. <br>La violencia afecta a mujeres de cualquier edad, condición económica y social y de cualquier religión. Puede ocurrir al interior de la pareja, en el trabajo, en los lugares de estudio y en los espacios públicos."
+				def: "“todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o psicológico para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada”. Declaración sobre la Eliminación de la Violencia contra la Mujer. En Chile existe una alta prevalencia de Violencia contra las mujeres se habla de más de 33%, lo quiere decir que 1 de cada 3 mujeres ha sido víctima de alguna expresión de violencia por ser mujer."
 			},
 			{
-				concepto: "Femicidio o Feminicidio",
-				def: "Es el homicidio cometido contra la mujer que es o ha sido cónyuge o conviviente del autor del crimen. En Chile es castigado con condenas que pueden ir de quince años y un día de cárcel hasta el presidio perpetuo calificado."
+				concepto: "Violencia de Género",
+				def: "Esta violencia ocurre debido a desigualdades estructurales que ubican a las mujeres en el lugar de las subordinadas, aunque también bajo este término cabrían aquellas violencias que afectan a los hombres situados también en posiciones de subordinación por razones de género. Cepal."
 			},
 			{
-				concepto: "Violencia psicológica",
-				def: "Cuando se intenta controlar a una mujer mediante amenazas, humillaciones y presión emocional con el propósito de hacerla sentir insegura y sin control sobre su vida y decisiones."
+				concepto: "Violencia Psicológica",
+				def: "Cuando se intenta controlar mediante amenazas, humillaciones y presión emocional con el propósito de hacerla sentir insegura y sin control sobre su vida y decisiones."
 			},
 			{
-				concepto: "Violencia sexual",
-				def: "Cuando una mujer es obligada, mediante la fuerza física o amenazas sicológicas, a tener  relaciones sexuales o a realizar actos sexuales que le resultan humillantes o degradantes."
+				concepto: "Violencia Sexual",
+				def: "Cuando se es obligada/o, mediante la fuerza física o amenazas psicológicas, a tener relaciones sexuales o a realizar actos sexuales que le resultan humillantes o degradantes."
 			},
 			{
-				concepto: "Violencia económica",
-				def: "Cuando se intenta controlar a la mujer a través de la entrega del dinero necesario para su manutención personal y/o de las hijas o hijos, o de otras personas que integran la familia. También constituye violencia económica cuando se apropian del dinero que ganó la mujer con su trabajo."
+				concepto: "Violencia Económica",
+				def: "Cuando se intenta controlar a una persona a través de la entrega del dinero necesario para su manutención personal y/o de las hijas o hijos, o de otras personas que integran la familia. También constituye violencia económica cuando se apropian del dinero que ganó la mujer con su trabajo."
 			},
 			{
-				concepto: "Acoso sexual",
-				def: "Cuando a una mujer se le exigen favores sexuales a cambio de su permanencia en el trabajo o su condiciona su ascenso o cualquier mejoría laboral. También ocurre en los lugares de estudio, cuando se condicionan notas o pasar de curso a cambio de acceder a las peticiones de un profesor o director. En este tema buscaría definiciones que incluyan formas más sutiles de acoso, en que se destaque que la situación de desigualdad de poder pone a la mujer en situación de riesgo o de percepción de que no puede decir que no; si encuentro algo lo mando (María Inés). La misma ley es más amplia en su definición."
+				concepto: "Misoginia",
+				def: "Es una forma de sexismo que implica odio, repudio y desprecio por las mujeres. (Mujeres y Educación Social: teoría y praxis para la intervención socio-educativa. López Barajas-Zayas, E. (dir.), Bejarano Franco, M. & Salido López, J.V. (Coords.). (2012). Madrid: UNED)"
 			},
 			{
-				concepto: "Hostigamiento y/o agresión en los espacios públicos",
-				def: "Casi todas las mujeres, de distintas edades y condición social, han sido molestadas y/o agredidas en la calle, en el transporte público e incluso en su trabajo. Con el pretexto de un 'piropo'  o que la mujer sería atractiva se les dicen groserías, o se justifican 'agarrones' y manoseos."
+				concepto: "Acoso Sexual",
+				def: "Cualquier comportamiento -verbal, no verbal o físico- no deseado, de índole sexual, que tenga por objeto violar la dignidad de una persona, en particular si crea un entorno intimidatorio, hostil, degradante, humillante u ofensivo."
+			},
+			{
+				concepto: "Abuso sexual",
+				def: "Aprovechamiento excesivo e inadecuado de carácter sexual de una persona sobre otra. Maltrato físico y/o verbal sobre una persona adulta o menor con el fin de obtener una satisfacción sexual. Se diferencia de la explotación sexual comercial en que no se efectúa ninguna transacción económica."
+			},
+			{
+				concepto: "Acoso callejero",
+				def: "Son prácticas de connotación sexual ejercidas por una persona desconocida, en espacios públicos como la calle, el transporte o espacios semi públicos (mall, universidad, plazas, etc.); que suelen generar malestar en la víctima. Estas acciones son unidireccionales, es decir, no son consentidas por la víctima y quien acosa no tiene interés en entablar una comunicación real con la persona agredida."
+			},
+			{
+				concepto: "Feminicidio",
+				def: "El acto de asesinar a una mujer, sólo por el hecho de su pertenencia al sexo femenino. Marcela Lagarde. El feminicidio comprende toda una progresión de actos violentos que van desde el maltrato emocional, psicológico, los golpes, los insultos, la tortura, la violación, la prostitución, el acoso sexual, el abuso infantil, el infanticidio de niñas, las mutilaciones genitales, la violencia doméstica y toda política que derive en la muerte de las mujeres, tolerada por el Estado. Julia Monárrez. En Chile de acuerdo al registro nacional:  2013 y 2014 hubo 40 femicidios cada año, en 2015 hubo 45."
+			},
+			{
+				concepto: "Abuso emocional/verbal",
+				def: "Cualquier comportamiento encaminado a controlar y subyugar a otro ser humano mediante el recurso al miedo y la humillación y valiéndose de ataques físicos o verbales. (Susan Forward)"
+			},
+			{
+				concepto: "Lenguaje sexista",
+				def: "Es aquél que nombra la realidad subsumiendo lo femenino en lo masculino e integrando a las mujeres en el mismo, imposibilitándoles de esa manera que nombren el mundo desde su género."
 			}
-		]
+		]		
 	});
