@@ -17,6 +17,10 @@ angular.module("app", ["ngRoute", "ui.materialize"])
 				controller: "viasDenuncia",
 				templateUrl: "html/vias_denuncia.html"
 			})
+			.when("/vias_denuncia/:param", {
+				controller: "viasDenuncia",
+				templateUrl: "html/vias_denuncia.html"
+			})
 			.when("/quienes_somos", {
 				controller: "",
 				templateUrl: "html/quienes_somos.html"

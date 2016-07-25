@@ -1,6 +1,6 @@
 angular.module("app")
-	.controller("viasDenuncia", function ($scope, $location, $http){
-		$scope.denuncia_show = 'nacional';
+	.controller("viasDenuncia", function ($scope, $location, $http, $routeParams){
+		$scope.denuncia_show = $routeParams.param;
 		$scope.download = function(){
 			//$location.url('/download/archivo_prueba.docx');
 			$http({method: 'GET', url: 'download/'}).
