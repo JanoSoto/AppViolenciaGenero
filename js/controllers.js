@@ -3,7 +3,7 @@ angular.module("app")
 		$scope.denuncia_show = $routeParams.param;
 		$scope.download = function(){
 			//$location.url('/download/archivo_prueba.docx');
-			$http({method: 'GET', url: 'download/'}).
+			$http({method: 'GET', url: 'download/archivo_prueba.docx'}).
 			  success(function(data, status, headers, config) {
 			     var anchor = angular.element('<a/>');
 			     anchor.attr({

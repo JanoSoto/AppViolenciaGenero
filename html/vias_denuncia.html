@@ -42,8 +42,10 @@
     <div class="row">
         <div class="col s12">
             <div>Elija el tipo de denuncia:</div>
-            <button ng-click="denuncia_show = 'nacional'" class="waves-effect waves-light btn">Nacional</button>
-            <button ng-click="denuncia_show = 'udesantiago'" class="waves-effect waves-light btn">U. de Santiago de Chile</button>
+            <!--button ng-click="denuncia_show = 'nacional'" class="waves-effect waves-light btn">Nacional</button>
+            <button ng-click="denuncia_show = 'udesantiago'" class="waves-effect waves-light btn">U. de Santiago de Chile</button-->
+            <a href="#/vias_denuncia/nacional" class="waves-effect waves-light btn btn-denuncia">Nacional</a>
+            <a href="#/vias_denuncia/udesantiago" class="waves-effect waves-light btn btn-denuncia">U. de Santiago de Chile</a>
         </div>
     </div>
     <div class="col s12" ng-show="denuncia_show == 'nacional'">
