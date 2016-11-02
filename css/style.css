@@ -64,6 +64,11 @@ p {
 	padding-left: 20px;
 }
 
+.list-card-padding{
+	padding: 15px 45px;
+    text-align: justify;
+}
+
 .panel-color{
 	background-color: #b1b3b4;
 	color: #FFF;
@@ -203,7 +208,7 @@ i{
 }
 
 .collapsible-header{
-	line-height: 2rem;
+	line-height: 3rem;
 }
 .border-side-nav{
 	border-bottom: #b1b3b4 solid 1px;

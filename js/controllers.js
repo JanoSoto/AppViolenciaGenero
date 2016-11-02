@@ -27,7 +27,7 @@ angular.module("app")
 			},
 			{
 				concepto: "Violencia contra las mujeres",
-				def: "“todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o psicológico para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada”. Declaración sobre la Eliminación de la Violencia contra la Mujer. En Chile existe una alta prevalencia de Violencia contra las mujeres se habla de más de 33%, lo quiere decir que 1 de cada 3 mujeres ha sido víctima de alguna expresión de violencia por ser mujer."
+				def: "En Chile existe una alta prevalencia de Violencia contra las mujeres se habla de más de 33%, lo quiere decir que 1 de cada 3 mujeres ha sido víctima de alguna expresión de violencia por ser mujer. “todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o psicológico para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada”. Declaración sobre la Eliminación de la Violencia contra la Mujer."
 			},
 			{
 				concepto: "Violencia de Género",

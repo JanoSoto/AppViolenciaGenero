@@ -1,13 +1,13 @@
 <div class="row">	
     <div class="col hide-on-small-only m3">
-        <a href="http://www.udesantiago.cl/" target="_blank">
+        <a href="http://www.udesantiago.cl/" target="_blank" rel="noopener noreferrer">
             <img class="responsive-img" src="images/logo-usach-naranjo.png"></img>
         </a>
     </div>
     <div class="col s12 m9 context">
         <div class="row hide-on-med-and-up">
             <div class="col s3 valign-wrapper">
-                <a href="http://www.udesantiago.cl/" target="_blank" >
+                <a href="http://www.udesantiago.cl/" target="_blank" rel="noopener noreferrer">
                     <img class="responsive-img" src="images/logo-usach-naranjo.png"></img>
                 </a>
             </div>
@@ -22,30 +22,37 @@
         <p>
             El Código Procesal Penal Artículo 175 establece la responsabilidad de funcionarios/as públicos a denunciar sospecha o conocimiento de delitos. Así:
         </p>
-        <p>
-            Estarán obligados a denunciar:
-        </p>
-        <ul class="list-padding">
-            <li class="list-alpha">Los miembros de Carabineros de Chile, de la Policía de Investigaciones de Chile y de Gendarmería, todos los delitos que presenciaren o llegaren a su noticia. Los miembros de las Fuerzas Armadas estarán también obligados a denunciar todos los delitos de que tomaren conocimiento en el ejercicio de sus funciones;</li>
-            <li class="list-alpha">Los fiscales y los demás empleados públicos, los delitos de que tomaren conocimiento en el ejercicio de sus funciones y, especialmente, en su caso, los que notaren en la conducta ministerial de sus subalternos;</li>
-            <li class="list-alpha">Los jefes de puertos, aeropuertos, estaciones de trenes o buses o de otros medios de locomoción o de carga, los capitanes de naves o de aeronaves comerciales que naveguen en el mar territorial o en el espacio territorial, respectivamente, y los conductores de los trenes, buses u otros medios de transporte o carga, los delitos que se cometieren durante el viaje, en el recinto de una estación, puerto o aeropuerto o a bordo del buque o aeronave;</li>
-            <li class="list-alpha">Los jefes de establecimientos hospitalarios o de clínicas particulares y, en general, los profesionales en medicina, odontología, química, farmacia y de otras ramas relacionadas con la conservación o el restablecimiento de la salud, y los que ejercieren prestaciones auxiliares de ellas, que notaren en una persona o en un cadáver señales de envenenamiento o de otro delito, y</li>
-            <li class="list-alpha bold">Los directores, inspectores y profesores de establecimientos educacionales de todo nivel, los delitos que afecten a los alumnos o que hubieren tenido lugar en el establecimiento.</li>
-        </ul>
-        <p>
-            La denuncia realizada por alguno de los obligados en este artículo eximirá al resto.
-        </p>
-        <p>
-            Más información en: <a href="http://www.leychile.cl/Navegar?idNorma=198675">NORMAS ADECUATORIAS DEL SISTEMA LEGAL CHILENO A LA REFORMA PROCESAL PENAL</a>
-        </p>
+
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header panel-color waves-effect waves-light">
+                    Estarán obligados a denunciar: 
+                </div>
+                <div class="collapsible-body context">
+                    <ul class="list-card-padding">
+                        <li class="list-alpha">Los miembros de Carabineros de Chile, de la Policía de Investigaciones de Chile y de Gendarmería, todos los delitos que presenciaren o llegaren a su noticia. Los miembros de las Fuerzas Armadas estarán también obligados a denunciar todos los delitos de que tomaren conocimiento en el ejercicio de sus funciones;</li>
+                        <li class="list-alpha">Los fiscales y los demás empleados públicos, los delitos de que tomaren conocimiento en el ejercicio de sus funciones y, especialmente, en su caso, los que notaren en la conducta ministerial de sus subalternos;</li>
+                        <li class="list-alpha">Los jefes de puertos, aeropuertos, estaciones de trenes o buses o de otros medios de locomoción o de carga, los capitanes de naves o de aeronaves comerciales que naveguen en el mar territorial o en el espacio territorial, respectivamente, y los conductores de los trenes, buses u otros medios de transporte o carga, los delitos que se cometieren durante el viaje, en el recinto de una estación, puerto o aeropuerto o a bordo del buque o aeronave;</li>
+                        <li class="list-alpha">Los jefes de establecimientos hospitalarios o de clínicas particulares y, en general, los profesionales en medicina, odontología, química, farmacia y de otras ramas relacionadas con la conservación o el restablecimiento de la salud, y los que ejercieren prestaciones auxiliares de ellas, que notaren en una persona o en un cadáver señales de envenenamiento o de otro delito, y</li>
+                        <li class="list-alpha bold">Los directores, inspectores y profesores de establecimientos educacionales de todo nivel, los delitos que afecten a los alumnos o que hubieren tenido lugar en el establecimiento.</li>
+                    </ul>
+                    <p>
+                        La denuncia realizada por alguno de los obligados en este artículo eximirá al resto.
+                    </p>
+                    <p>
+                        Más información en: <a href="http://www.leychile.cl/Navegar?idNorma=198675" target="_blank" rel="noopener noreferrer">NORMAS ADECUATORIAS DEL SISTEMA LEGAL CHILENO A LA REFORMA PROCESAL PENAL</a>
+                    </p>
+                </div>
+            </li>
+        </ul>        
     </div>
     <div class="row">
         <div class="col s12">
             <div>Elija el tipo de denuncia:</div>
             <!--button ng-click="denuncia_show = 'nacional'" class="waves-effect waves-light btn">Nacional</button>
             <button ng-click="denuncia_show = 'udesantiago'" class="waves-effect waves-light btn">U. de Santiago de Chile</button-->
-            <a href="#/vias_denuncia/nacional" class="waves-effect waves-light btn btn-denuncia">Nacional</a>
-            <a href="#/vias_denuncia/udesantiago" class="waves-effect waves-light btn btn-denuncia">U. de Santiago de Chile</a>
+            <a href="#/vias_denuncia/nacional"class="waves-effect waves-light btn btn-denuncia" onclick="window.scrollTo(0, 0)">Nacional</a>
+            <a href="#/vias_denuncia/udesantiago" class="waves-effect waves-light btn btn-denuncia" onclick="window.scrollTo(0, 0)">U. de Santiago de Chile</a>
         </div>
     </div>
     <div class="col s12" ng-show="denuncia_show == 'nacional'">
@@ -63,7 +70,7 @@
                         <span class="card-title title-denuncia">Juzgados de Familia</span>
                         <div class="contacto">
                             <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a href="http://familia.minjusticia.gob.cl/media/2013/06/Juzgados-de-Familia.swf" target="_blank">Ir al sitio <i class="material-icons">open_in_new</i></a>
+                                <a href="http://familia.minjusticia.gob.cl/" target="_blank" rel="noopener noreferrer">Ir al sitio <i class="material-icons">open_in_new</i></a>
                             <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
                             <p>(56-2) 26743100</p>
                         </div>
@@ -76,7 +83,7 @@
                         <span class="card-title title-denuncia">Carabineros</span>
                         <div class="contacto">
                             <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a href="http://www.carabineros.cl/" target="_blank">Ir al sitio <i class="material-icons">open_in_new</i></a>
+                                <a href="http://www.carabineros.cl/" target="_blank" rel="noopener noreferrer">Ir al sitio <i class="material-icons">open_in_new</i></a>
                             </p>
                             <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
                             <p>149</p>
@@ -90,7 +97,7 @@
                         <span class="card-title title-denuncia">Policía de Investigaciones</span>
                         <div class="contacto">
                             <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a href="http://www.pdichile.cl/" target="_blank">Ir al sitio <i class="material-icons">open_in_new</i></a>
+                                <a href="http://www.pdichile.cl/" target="_blank" rel="noopener noreferrer">Ir al sitio <i class="material-icons">open_in_new</i></a>
                             </p>
                             <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
                             <p>134 - 2 27080000</p>
@@ -104,7 +111,7 @@
                         <span class="card-title title-denuncia">Ministerio Público</span>
                         <div class="contacto">
                             <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a href="http://www.fiscaliadechile.cl/Fiscalia/index.do" target="_blank">Ir al sitio <i class="material-icons">open_in_new</i></a>
+                                <a href="http://www.fiscaliadechile.cl/Fiscalia/index.do" target="_blank" rel="noopener noreferrer">Ir al sitio <i class="material-icons">open_in_new</i></a>
                             </p>
                             <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
                             <p>600 333 0000</p>
@@ -115,13 +122,13 @@
             <div class="col s6 offset-s3 l2">
                 <div class="card panel-color">
                     <div class="card-content denuncia-content white-text">
-                        <span class="card-title title-denuncia">Servicio Nacional de la Mujer</span>
+                        <span class="card-title title-denuncia">Ministerio de la Mujer</span>
                         <div class="contacto">
                             <p class="dato-contacto"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a href="http://portal.sernam.cl/?m=programa&i=71" target="_blank">Ir al sitio <i class="material-icons">open_in_new</i></a>
+                                <a href="http://www.minmujeryeg.gob.cl/sernameg/programas/violencia-contra-las-mujeres/fono-violencia/" target="_blank" rel="noopener noreferrer">Ir al sitio <i class="material-icons">open_in_new</i></a>
                             </p>
                             <p class="dato-contacto"><i class="fa fa-phone" aria-hidden="true"></i>Teléfono</p>
-                            <p>2 25496365</p>
+                            <p>800 104 008</p>
                         </div>
                     </div>
                 </div>
@@ -149,7 +156,7 @@
             La Universidad de Santiago de Chile a través de estas herramientas de denuncia propende que toda la Comunidad Universitaria tenga derecho a una vida sin violencia. Por ello, cuenta con ámbitos de confianza y seguridad para que las personas afectadas puedan exponer libremente la situación vivida, poner en funcionamiento los procedimientos de investigaciones y, si aplican, las sanciones correspondientes.
         </p>
         <p>
-            Cuando se realiza una denuncia interna se inicia una investigación sumarial. El órgano competente de recibir, investigar y sancionar en nuestra Comunidad es la <a href="http://www.usach.cl/secretaria-general">Secretaría General</a> a través de la Dirección de Asistencia Jurídica.
+            Cuando se realiza una denuncia interna se inicia una investigación sumarial. El órgano competente de recibir, investigar y sancionar en nuestra Comunidad es la <a href="http://www.usach.cl/secretaria-general" target="_blank" rel="noopener noreferrer">Secretaría General</a> a través de la Dirección de Asistencia Jurídica.
         </p>
         <p>
             <span class="bold">Importante: </span>El Punto Focal de Género no recibe denuncias y no realiza investigaciones.
