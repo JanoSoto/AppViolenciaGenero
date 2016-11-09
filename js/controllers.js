@@ -9,7 +9,7 @@ angular.module("app")
 			     anchor.attr({
 			         href: 'data:attachment/csv;charset=utf-8,' + encodeURI(data),
 			         target: '_blank',
-			         download: 'archivo_prueba.docx'
+			         download: 'Carta nuevo protocolo.doc'
 			     })[0].click();
 
 			  }).
