@@ -3,13 +3,13 @@ angular.module("app")
 		$scope.denuncia_show = $routeParams.param;
 		$scope.download = function(){
 			//$location.url('/download/archivo_prueba.docx');
-			$http({method: 'GET', url: 'download/archivo_prueba.docx'}).
+			$http({method: 'GET', url: 'download/Carta_nuevo_protocolo.doc'}).
 			  success(function(data, status, headers, config) {
 			     var anchor = angular.element('<a/>');
 			     anchor.attr({
 			         href: 'data:attachment/csv;charset=utf-8,' + encodeURI(data),
 			         target: '_blank',
-			         download: 'Carta nuevo protocolo.doc'
+			         download: 'Carta_nuevo_protocolo.doc'
 			     })[0].click();
 
 			  }).
