@@ -27,7 +27,7 @@ angular.module("app")
 			},
 			{
 				concepto: "Violencia contra las mujeres",
-				def: "En Chile existe una alta prevalencia de Violencia contra las mujeres se habla de más de 33%, lo quiere decir que 1 de cada 3 mujeres ha sido víctima de alguna expresión de violencia por ser mujer. “todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o psicológico para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada”. Declaración sobre la Eliminación de la Violencia contra la Mujer."
+				def: "En Chile existe una alta prevalencia de Violencia contra las mujeres se habla de más de 33%, lo quiere decir que 1 de cada 3 mujeres ha sido víctima de alguna expresión de violencia por ser mujer. “Todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado un daño o sufrimiento físico, sexual o psicológico para la mujer, así como las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública como en la vida privada”. Declaración sobre la Eliminación de la Violencia contra la Mujer."
 			},
 			{
 				concepto: "Violencia de Género",
@@ -35,7 +35,7 @@ angular.module("app")
 			},
 			{
 				concepto: "Violencia Psicológica",
-				def: "Cuando se intenta controlar mediante amenazas, humillaciones y presión emocional con el propósito de hacerla sentir insegura y sin control sobre su vida y decisiones."
+				def: "Cuando se intenta controlar mediante amenazas, humillaciones y presión emocional con el propósito de hacer sentir insegura a la persona y sin control sobre su vida y decisiones. Servicio Nacional de la Mujer y la Equidad de Género. Chile."
 			},
 			{
 				concepto: "Violencia Sexual",

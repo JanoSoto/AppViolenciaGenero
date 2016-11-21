@@ -1,9 +1,9 @@
 
 /*
 	Colores usach:
-		Naranjo: #ff7319;
-		Gris: #b1b3b4;
-		Azul: #0052cc;
+		Naranjo: #EA7600;
+		Gris: #B1B1B1;
+		Azul: #002F6C;
 		Gris-letras: #546e7a;
 */
 *{
@@ -11,7 +11,7 @@
 }
 
 a{
-	color: #ff7319;
+	color: #EA7600;
 }
 
 a:hover{
@@ -70,12 +70,12 @@ p {
 }
 
 .panel-color{
-	background-color: #b1b3b4;
+	background-color: #B1B1B1;
 	color: #FFF;
 }
 
 nav{
-	background-color: #ff7319;
+	background-color: #EA7600;
 }
 
 .navbar-fixed {
@@ -99,7 +99,7 @@ nav{
 .page-footer{
 	width: 90%;
     margin-left: 5%;
-    background-color: #ff7319 !important;
+    background-color: #EA7600 !important;
 }
 
 .card-home{
@@ -130,38 +130,38 @@ nav{
 }
 
 .tabs .tab a{
-	color: #b1b3b4;
+	color: #B1B1B1;
 }
 
 .tabs .tab a:hover{
 	font-weight: bold;
-	color: #b1b3b4;
+	color: #B1B1B1;
 }
 
 .tabs .indicator{
-	background-color: #b1b3b4;
+	background-color: #B1B1B1;
 }
 
 .btn{
-	background-color: #ff7319;
+	background-color: #EA7600;
 }
 
 .btn:hover{
-	background-color: #ff7319;
+	background-color: #EA7600;
 }
 
 .btn:focus{
-	background-color: #ff7319;
+	background-color: #EA7600;
 }
 
 .btn-gray{
-	background-color: #b1b3b4;
+	background-color: #B1B1B1;
 }
 .btn-gray:hover{
-	background-color: #b1b3b4;
+	background-color: #B1B1B1;
 }
 .btn-gray:focus{
-	background-color: #b1b3b4;
+	background-color: #B1B1B1;
 }
 
 .denuncia-content{
@@ -211,7 +211,7 @@ i{
 	line-height: 3rem;
 }
 .border-side-nav{
-	border-bottom: #b1b3b4 solid 1px;
+	border-bottom: #B1B1B1 solid 1px;
 }
 .quote{
 	font-style: italic;
@@ -224,4 +224,10 @@ i{
 }
 .btn-denuncia:hover{
 	font-weight: normal;
+}
+#logo-home{
+	margin-top: 10%;
+}
+#logo-denuncias{
+	margin-top: 5%;
 }
