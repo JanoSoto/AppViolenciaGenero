@@ -33,6 +33,13 @@ p {
 	width: 70%;
 }
 
+@media(max-width: 500px){
+	.brand-logo{
+		white-space: nowrap !important;
+		transform: translate(-50%, 50%) !important;
+	}	
+}
+
 @media (min-width: 500px){
 	.brand-logo{		
 		white-space: nowrap !important;
