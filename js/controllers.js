@@ -5,6 +5,7 @@ angular.module("app")
 			//$location.url('/download/archivo_prueba.docx');
 			$http({method: 'GET', url: 'download/Carta_nuevo_protocolo.doc'}).
 			  success(function(data, status, headers, config) {
+			  	console.log(data+'-'+status+'-'+headers+'-'+config);
 			     var anchor = angular.element('<a/>');
 			     anchor.attr({
 			         href: 'data:attachment/doc;charset=utf-8,' + encodeURI(data),
