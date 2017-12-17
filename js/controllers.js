@@ -23,7 +23,7 @@ angular.module("app")
 		$scope.definiciones = [
 			{
 				concepto: "Género",
-				def: "El género es una construcción social, histórica, política y cultural que instaura un orden social basado en un sistema de poder que condiciona a las personas a vivir de una manera específica de acuerdo a su sexo. Concepto acordado por el Punto Focal de Género y la Red en temáticas de Género Universidad de Santiago de Chile. 2015."
+				def: "El género es una construcción social, histórica, política y cultural que instaura un orden social basado en un sistema de poder que condiciona a las personas a vivir de una manera específica de acuerdo a su sexo. Concepto acordado por el Área de género, equidad y diversidad y la Red en temáticas de Género Universidad de Santiago de Chile. 2015."
 
 			},
 			{
